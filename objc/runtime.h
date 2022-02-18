@@ -1156,7 +1156,7 @@ int objc_set_apple_compatible_objcxx_exceptions(int newValue) OBJC_NONPORTABLE;
  * some other framework to replace it trivially.
  */
 OBJC_PUBLIC
-void __attribute__((weak)) objc_enumerationMutation(id obj);
+void objc_enumerationMutation(id obj);
 
 
 #define _C_ID       '@'
