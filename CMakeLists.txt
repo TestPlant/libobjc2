@@ -28,11 +28,11 @@ set(libobjc_ASM_SRCS
 	block_trampolines.S
 	objc_msgSend.S)
 set(libobjc_OBJCXX_SRCS 
-#	arc.mm
+	arc.mm
 	)
 set(libobjc_OBJC_SRCS 
 	NSBlocks.m
-#	Protocol2.m
+	Protocol2.m
 	associate.m
 	blocks_runtime.m
 	properties.m)
