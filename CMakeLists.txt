@@ -142,7 +142,7 @@ else()
 	set(OLD_ABI_COMPAT_DEFAULT true)
 endif()
 
-set(objc_LINK_FLAGS "${objc_LINK_FLAGS} -i")
+set(objc_LINK_FLAGS "${objc_LINK_FLAGS} -r")
 
 set(OLDABI_COMPAT ${OLD_ABI_COMPAT_DEFAULT} CACHE BOOL
 	"Enable compatibility with GCC and old GNUstep ABIs")
